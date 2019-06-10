@@ -1,5 +1,6 @@
 import 'dart:io' hide Platform;
 
+import 'package:rc_cross_platform/rc_cross_platform.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:rc_cross_preferences/src/rc_cross_preferences_base.dart';
 

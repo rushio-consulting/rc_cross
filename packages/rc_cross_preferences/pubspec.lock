@@ -81,6 +81,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.3"
+  rc_cross_platform:
+    dependency: "direct main"
+    description:
+      path: "packages/rc_cross_platform"
+      ref: HEAD
+      resolved-ref: "2c42f56512c803c425b86a236ebf6c539b8fa418"
+      url: "https://github.com/rushio-consulting/rc_cross.git"
+    source: git
+    version: "0.0.1"
   shared_preferences:
     dependency: "direct main"
     description:

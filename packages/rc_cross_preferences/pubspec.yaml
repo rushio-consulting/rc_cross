@@ -12,9 +12,11 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
-  shared_preferences: ^0.5.3+
+  shared_preferences: ^0.5.3+1
   rc_cross_platform:
     git: 
+      url: https://github.com/rushio-consulting/rc_cross.git
+      path: packages/rc_cross_platform
 
 dev_dependencies:
   flutter_test:
