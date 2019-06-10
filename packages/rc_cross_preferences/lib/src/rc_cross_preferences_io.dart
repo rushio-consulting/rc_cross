@@ -1,8 +1,7 @@
 import 'dart:io' hide Platform;
 
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:stashall/src/platform_specific/rc_cross_platform/platform.dart';
-import 'package:stashall/src/platform_specific/rc_cross_preferences/rc_cross_preferences_base.dart';
+import 'package:rc_cross_preferences/src/rc_cross_preferences_base.dart';
 
 class RcCrossPreferences extends RcCrossPreferencesBase {
   static RcCrossPreferences _instance;

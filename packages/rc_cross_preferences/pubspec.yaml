@@ -1,5 +1,6 @@
 name: rc_cross_preferences
 description: A package to save preferences that work on all platform supported by Flutter.
+author: Rushio Consulting <dev@rushio-consulting.fr>
 
 version: 0.0.1
 
@@ -11,7 +12,9 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
-  shared_preferences: ^0.5.3+1
+  shared_preferences: ^0.5.3+
+  rc_cross_platform:
+    git: 
 
 dev_dependencies:
   flutter_test:

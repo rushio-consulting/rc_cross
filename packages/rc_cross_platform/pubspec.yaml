@@ -1,0 +1,17 @@
+name: rc_cross_platform
+description: A package to know on which platform your application is running who work on all supported Flutter platform (android, ios, linux, windows, macos and web)
+version: 0.0.1
+author: Rushio Consulting <dev@rushio-consulting.fr>
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
